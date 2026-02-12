@@ -1,0 +1,24 @@
+p {
+  font-size: 16px;
+  color: #444;
+}
+.featured-projects {
+  color: #1d4ed8;
+  font-weight: bold;
+}
+#projects {
+  background-color: #f9fafb;
+  padding: 20px;
+}
+
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+nav a {
+  color: #2563eb;
+}
+
+
