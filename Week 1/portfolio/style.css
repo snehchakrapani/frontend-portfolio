@@ -16,6 +16,7 @@ body {
   text-align: center;
   padding: 30px;
   background-color: #ffffff;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 .header h1 {
@@ -50,12 +51,6 @@ p {
   padding: 20px;
 }
 
-input[type="email"],
-textarea {
-  border: 1px solid #ccc;
-  padding: 8px;
-}
-
 nav {
   background-color: #1e293b;
   padding: 10px;
@@ -75,6 +70,16 @@ nav a:hover {
 
 section {
   background-color: #ffffff;
-  margin: 20px;
-  padding: 20px;
+  margin: 30px;
+  padding: 25px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
 }
