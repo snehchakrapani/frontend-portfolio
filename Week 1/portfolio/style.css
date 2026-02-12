@@ -1,11 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.header p {
+  font-size: 16px;
+  color: #475569;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
 p {
   font-size: 16px;
   color: #444;
 }
+
 .featured-projects {
   color: #1d4ed8;
-  font-weight: bold;
 }
+
 #projects {
   background-color: #f9fafb;
   padding: 20px;
@@ -17,8 +56,25 @@ textarea {
   padding: 8px;
 }
 
+nav {
+  background-color: #1e293b;
+  padding: 10px;
+  text-align: center;
+}
+
 nav a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
   color: #2563eb;
 }
 
-
+section {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
